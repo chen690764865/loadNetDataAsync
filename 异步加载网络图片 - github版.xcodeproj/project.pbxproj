@@ -35,6 +35,7 @@
 		33D436D31D4CF0F80039825D /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D436BB1D4CF0F80039825D /* UIImageView+HighlightedWebCache.m */; };
 		33D436D41D4CF0F80039825D /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D436BD1D4CF0F80039825D /* UIImageView+WebCache.m */; };
 		33D436D51D4CF0F80039825D /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D436BF1D4CF0F80039825D /* UIView+WebCacheOperation.m */; };
+		33D436D81D4CF2780039825D /* CCAppInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D436D71D4CF2780039825D /* CCAppInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,8 @@
 		33D436BD1D4CF0F80039825D /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		33D436BE1D4CF0F80039825D /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		33D436BF1D4CF0F80039825D /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		33D436D61D4CF2780039825D /* CCAppInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAppInfoModel.h; sourceTree = "<group>"; };
+		33D436D71D4CF2780039825D /* CCAppInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAppInfoModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				331368601D4B7FC5004F2807 /* LaunchScreen.storyboard */,
 				331368631D4B7FC5004F2807 /* Info.plist */,
 				331368521D4B7FC5004F2807 /* Supporting Files */,
+				33D436D61D4CF2780039825D /* CCAppInfoModel.h */,
+				33D436D71D4CF2780039825D /* CCAppInfoModel.m */,
 			);
 			path = "异步加载网络图片 - github版";
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				33D436D31D4CF0F80039825D /* UIImageView+HighlightedWebCache.m in Sources */,
 				33D436CA1D4CF0F80039825D /* SDWebImageDecoder.m in Sources */,
 				33D436D41D4CF0F80039825D /* UIImageView+WebCache.m in Sources */,
+				33D436D81D4CF2780039825D /* CCAppInfoModel.m in Sources */,
 				33D436C51D4CF0F80039825D /* AFURLSessionManager.m in Sources */,
 				33D436CC1D4CF0F80039825D /* SDWebImageDownloaderOperation.m in Sources */,
 				33D436CD1D4CF0F80039825D /* SDWebImageManager.m in Sources */,
